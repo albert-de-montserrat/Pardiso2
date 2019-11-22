@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Number of jobs chained to the first one
+njobchain=2 
+
+# First job submitted
+qsub pbs_i3mg > out2.txt
+
+job=`cat out2.txt | gawk '{if(NR<2)printf($0)}'`
+
+echo $0: $job
+
+rm tmpsub.txt
+awk  'BEGIN {printf "%s\n","'"$job"'" >> "tmpsub.txt" }' 
+
+for ((d=1; d<=$njobchain; d++))
+do
+
+    qsub -W depend=afterok:$job pbs_i3mg > out2.txt
+
+    job=`cat out2.txt | gawk '{if(NR<2)printf($0)}'`
+
+    echo $0: $job
+    awk  'BEGIN {printf "%s\n","'"$job"'" >> "tmpsub.txt" }' 
+
+done
+
+

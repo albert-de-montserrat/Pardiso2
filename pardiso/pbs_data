@@ -1,0 +1,15 @@
+#!/bin/csh
+
+#PBS -N data
+#PBS -A IscrC_NUMACOP3
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=1:mem=1GB    
+#PBS -q archive 
+#PBS -M manuele.faccenda@gmail.com    
+#PBS -m abe
+
+# Changes directory to your execution directory (Leave as is)
+cd $PBS_O_WORKDIR
+
+cp -r Anisotropy_Z0* /gpfs/work/IscrC_NUMACOP/plumeatX1600/
+cp * /gpfs/work/IscrC_NUMACOP/plumeatX1600/

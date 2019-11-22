@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#PBS -q dm
+#PBS -N volf20_nu10_SS
+#PBS -l walltime=120:00:00
+#PBS -l nodes=1:ncpus=14
+#PBS -l mem=64gb
+
+# set path of working directory
+cd $PBS_O_WORKDIR
+
+# Set number of threads
+export OMP_NUM_THREADS=14
+
+./i3mg

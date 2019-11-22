@@ -1,0 +1,7 @@
+#!/bin/bash
+
+icc -I$HDF5_INC -L$HDF5_LIB -O2 -qopenmp -o i3mg i3mg.c -lm -lhdf5 -mcmodel=medium -DH5_NO_DEPRECATED_SYMBOLS
+icc -I$HDF5_INC -L$HDF5_LIB -O2 -qopenmp -o in3mg in3mg.c -lm -lhdf5 -mcmodel=medium -DH5_NO_DEPRECATED_SYMBOLS
+# icc -I$HDF5_INC -L$HDF5_LIB -O2 -qopenmp -o vizmark vizmark.c -lm -lhdf5 -mcmodel=medium -DH5_NO_DEPRECATED_SYMBOLS
+ icc -I$HDF5_INC -L$HDF5_LIB -O2 -qopenmp -o viz viz.c -lm -lhdf5 -mcmodel=medium -DH5_NO_DEPRECATED_SYMBOLS
+
