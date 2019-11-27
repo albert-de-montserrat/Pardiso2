@@ -1,0 +1,134 @@
+
+/OUTPUT_DIRECTORY
+storage2/unipd/navarro/MG/test5_parallel_2lvls/
+
+/LOADFILE_TYPE
+incl000     h
+
+/SAVEFL_TYPE_cyc0max_maxxystep_maxtkstep_maxtmstep_nubeg_nuend_multinum1_stp1_multinum2
+incl001  h    5      0.0001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl002  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl003  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl004  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl005  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl006  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl007  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl008  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl009  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl010  h    5      0.001    25.0       1e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl011  h    15     0.005    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl012  h    15     0.005    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl013  h    15     0.005    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl014  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl015  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl016  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl017  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl018  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl019  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl020  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl021  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl022  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl023  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl024  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl025  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl026  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl027  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl028  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl029  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl030  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl031  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl032  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl033  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl034  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl035  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl036  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl037  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl038  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl039  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl040  h    50     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl040  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl041  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl042  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl043  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl044  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+incl045  h   100     0.010    25.0       5e+3    1e+00 1e+04 0.10 0.00 0.10 0.00 2 5  2
+~
+
+/GENERAL_PARAMETERS
+1-printmod
+1-movemod
+0-tempmod
+2-markmod
+1-gridmod
+2-outgrid 
+0-densimod
+9000-stp100 
+45-filestop
+
+/EFFECTIVE_VISCOSITY_CALC
+1-effbulkviscmod
+1-platesdistance
+
+/ERROSION_SEDIMENTATION_PARAMETERS
+00000-eroslev
+00000-sedilev
+00000-waterlev
+
+/V_P_ITERATIONS_PARAMETERS
+30000-cyc1max
+9e-03-DIVVMIN
+5e+01-STOKSMIN
+0e-03-DIVVMAX
+3e-03-STOKSMAX
+2-multinum
+1-multicyc
+4 16  0
+4 16 32
+3.0e-01-p0koef
+1.0e-00-p1koef
+0.0e-00-p2koef
+1.0e-00-v0koef
+1.0e-00-v1koef
+1e+00-nubeg
+1e+04-nuend
+0.0-nukoef
+0-viscmod
+0-spheryn
+1-drexmod 
+
+/T_ITERATIONS_PARAMETERS
+2500-cyc2max
+1e-4-HEATMIN
+0-multinumt
+1-multicyct
+10
+0
+1.0e-00-t0koef
+1.0e-00-t1koef
+1.0-heatdif 
+1-frictyn
+1-adiabyn
+
+/HYDRATION_MELTING_PARAMETERS
+97300000.0-tkpor
+70.1-zmpor
+-3e-09-vyfluid
+-3e-09-vymelt
+1e-1-dmvamin
+3055-tdeep
+100.0-dtdeep
+000.0-drdeep
+3800-zdeep
+3800-vdeep
+1e+21-nudeep
+2e+3-dxwater
+2e+3-dywater
+2e+3-dzwater
+5e-1-maxwater
+2e-2-minmelt
+4e-2-maxmelt
+
+/COLLISION_VELOCITY
+0e+6-timebeg
+1e+6-timeend
+0-velocitykf

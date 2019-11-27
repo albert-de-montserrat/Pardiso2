@@ -1,20 +1,20 @@
 /INPUT_DIRECTORY
-/storage2/unipd/navarro/Newtonian/Sphere_test/SimpleShear_StrongInclusion/
-storage2/unipd/navarro/test_viz/
+storage2/unipd/navarro/MG/test3_dirichletP/
 
 /OUTPUT_DIRECTORY
-/storage2/unipd/navarro/Newtonian/Sphere_test/SimpleShear_StrongInclusion/
-storage2/unipd/navarro/test_viz/
+storage2/unipd/navarro/MG/test3_dirichletP/
 
 /FILE_NAME
 incl
 
 /NODES_INFOS
 /mesh__rho__nu__tk__vxyz__eii__sii__pr__hs____fd__ee___mtype_wii
-  1     1    1   0   0     1    0    1  0000   0   0     0    0
+  1     1    1   0   1     1    0    1  0000   0   0     0    0
 
 /Output_file_number
 010
+015
+023
 ~
 010
 015

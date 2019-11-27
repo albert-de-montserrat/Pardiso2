@@ -1,0 +1,17 @@
+#!/bin/csh
+
+#PBS -N willviz
+#PBS -A IscrC_NUMACOP3 
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=2:mem=8GB    
+#PBS -M fedrizzigiulia@gmail.com    
+#PBS -m abe
+
+# Changes directory to your execution directory (Leave as is)
+cd $PBS_O_WORKDIR
+
+setenv  OMP_NUM_THREADS 2
+
+./vizmark > out.txt        
+
+

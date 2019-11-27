@@ -3664,6 +3664,9 @@ int gausmat4(int am, long int mcmax, long int mcmin, int mgi)
   {
     /*
     */
+    if (m3==am-1 && mgi==multinum-1) {
+        fl = fopen("fre1_gausmat4.txt","w");
+      }
     #pragma omp parallel for shared(fre1,num0,pos0,sol0,lin0,val1,nd,bondm) private(m30,m40,m1,m2,ival,ival1) firstprivate(m3,mcmin,mcmax,v0koef,p0koef,mgp,mgxy,mgx,mgy,mgz) schedule(static)
     for (m30=0;m30<mgz[mgi]*mgx[mgi]*mgy[mgi];m30++)
     for (m40=0;m40<4;m40++)
@@ -3672,6 +3675,9 @@ int gausmat4(int am, long int mcmax, long int mcmin, int mgi)
       m1=(mgp[mgi]+m30)*4+m40;
       if(num0[m1])
       {
+        if (m3==am-1 && mgi==multinum-1) {
+          fprintf(fl, "%e %i\n",fre1[m1],m1);
+        }
         /* Use koef from fre1[], val1[] */
         ival=-fre1[m1];
         ival1=val1[pos0[m1]];
@@ -3706,6 +3712,10 @@ int gausmat4(int am, long int mcmax, long int mcmin, int mgi)
         }
       }
     }
+
+    if (m3==am-1 && mgi==multinum-1) {
+       fclose(fl);
+     }
 
     // if (m3==0) {
     //   fl = fopen("sol0_gaus_first_it.txt","w");

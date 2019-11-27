@@ -1,0 +1,12 @@
+#!/bin/bash
+
+idir='../16cpus'
+
+cp $idir/*c .
+cp $idir/*mg* .
+cp $idir/m* .
+cp $idir/p* .
+cp $idir/viz* .
+cp $idir/bash_submit .
+cp $idir/bash_delete .
+cp $idir/bash_compile .

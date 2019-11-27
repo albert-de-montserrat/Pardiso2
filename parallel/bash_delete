@@ -1,0 +1,14 @@
+#!/bin/bash
+
+njobs=`cat tmpsub.txt | gawk '{print($0)}'`
+
+#echo $0: $njobs
+
+for d in $njobs; do     
+
+    echo $0: $d
+    qdel $d 
+
+done
+
+

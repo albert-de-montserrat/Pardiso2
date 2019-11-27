@@ -11,8 +11,8 @@
 /* --------------------- UNCLUDE PARTS --------------------- */
 #include"head3mg.c"
 #include"load3mg.c"
-//#include"move3mgold.c"
-#include"move3mg.c"
+#include"move3mgNew.c"
+//#include"move3mg.c"
 #include"mark3mg.c"
 //#include"gaus3mg_MG.c"
 #include"gaus3mg_SerieMG.c"
